@@ -1,0 +1,10 @@
+Package: com.gebeto.lingvohack
+Name: Lingvo Hack
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: Hack for Abbyy Lingvo! All purchased.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: Alexander Orlov
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

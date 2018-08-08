@@ -1,0 +1,10 @@
+Package: com.gebeto.shellyhack
+Name: Shelly Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Shelly terminal premium hack!
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: Alexander Belinsky
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

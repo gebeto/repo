@@ -1,0 +1,10 @@
+Package: com.gebeto.memrisehack
+Name: Memrise Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Memrise взлом на премиум
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

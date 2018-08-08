@@ -1,0 +1,9 @@
+Package: com.gebeto.colorflowlockhtml
+Name: ColorFlow LockHTML
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Хорошие часы с переходом и датой
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+

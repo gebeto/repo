@@ -1,0 +1,10 @@
+Package: com.gebeto.lazytool2unlimited
+Name: LazyTool2 Unlimited
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Lazy Tool 2 Unlimited hack!!!!
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

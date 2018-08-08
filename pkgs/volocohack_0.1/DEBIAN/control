@@ -1,0 +1,10 @@
+Package: com.gebeto.volocohack
+Name: Voloco Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Voloco Hack open all for free
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

@@ -1,0 +1,10 @@
+Package: com.gebeto.lazytoken1
+Name: Lazy Token
+Version: 1.5
+Architecture: iphoneos-arm
+Description: Enter LazyTool2 access token  Для активации твика, сделайте длинный тап по нижнему бару в приложении. Откроется окошко для ввода vk access_token Вставте там свой токен и нажмите OK После этого авторизируйтесь через вк в самом lazytool
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

@@ -1,0 +1,10 @@
+Package: com.gebeto.englishwithwordshack
+Name: English With Words Hack
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: English With Words Hack      English With Words Hack      English With Words Hack
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

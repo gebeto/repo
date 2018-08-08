@@ -1,0 +1,9 @@
+Package: com.gebeto.crownkingzeppelin
+Name: Crown : King Zeppelin
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Короны для Zeppelin
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Addons
+

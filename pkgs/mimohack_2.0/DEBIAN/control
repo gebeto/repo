@@ -1,0 +1,10 @@
+Package: com.gebeto.mimohack
+Name: Mimo Hack
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Взлом на премиум для Mimo: Learn how to code through interactive tutorials and quizzes!
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

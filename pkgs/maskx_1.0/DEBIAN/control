@@ -1,0 +1,9 @@
+Package: com.gebeto.maskx
+Name: Maskx
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Часы переривающиеся маской
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+

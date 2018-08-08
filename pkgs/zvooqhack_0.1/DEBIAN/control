@@ -1,0 +1,10 @@
+Package: com.gebeto.zvooqhack
+Name: Zvooq Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Хак на приложение Zvooq, подписка и убрана реклама
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

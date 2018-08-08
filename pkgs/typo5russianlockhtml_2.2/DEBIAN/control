@@ -1,0 +1,9 @@
+Package: com.gebeto.typo5russianlockhtml
+Name: Typo5 Russian LockHTML
+Version: 2.2
+Architecture: iphoneos-arm
+Description: Шедевральные часы на весь екран
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+

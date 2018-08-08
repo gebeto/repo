@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+	font-weight:100;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.2);
+	font-family:Measure;
+	text-transform:uppercase;
+	color:eeeeee;
+}
+
+@font-face{
+	font-family:Measure;
+	src:url(Measure.ttf);
+}
+
+#Calendario{
+       position:absolute; top:90.5%; left:3%; width:100%; text-align:left; z-index:50;
+       font-size:5.5vw;
+	   letter-spacing:1;
+}
+#date,#month{}
+#numeral{color:8a8a8a;}
+
+#Reloj{
+       position:absolute; top:94%; left:3%; width:100%; text-align:left; z-index:50;
+       font-size:5vw;
+	   letter-spacing:2;
+}
+#hour,#puntos,#minute,#ampm{}
+
+#day{
+       position:absolute; top:26%; left:0%; width:100%; text-align:center; z-index:50;
+       font-size:3vw;
+	   color:000000;
+	   opacity:0.6;
+	   letter-spacing:1;
+}
+#R{
+       position:absolute; top:93.5%; left:20%; width:24.7%; height:3%; z-index:30;
+	   background-color:eeeeee;
+	   opacity:0.5;
+}

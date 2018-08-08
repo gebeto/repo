@@ -1,0 +1,592 @@
+Package: com.gebeto.audioenglish
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/audioenglish_1.0.deb
+Size: 5528
+MD5sum: 715d675319ba0592ec5092426382d670
+SHA1: 6151e41d27174b7d9394891f0c39f0f939516bd5
+SHA256: 5048d813966b7160b761fb2d8054d00d0a11d1e73f85c579965806be040167cc
+Section: Tweaks (Hacks)
+Description: Взлом  на подписку, все открыто
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Самоучитель английского языка. Полный курс: иностранный язык с нуля для начинающих
+
+Package: com.gebeto.bearnoteshack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/bearnoteshack_0.1.deb
+Size: 3030
+MD5sum: 9585744e1a2ccf166d8973659b5224f9
+SHA1: a1c8054472822ebe4c01ab0f3fe81be899392aea
+SHA256: 0cb45cff84f9346fe43cc0118adc30e747febee71a0c87c3ded28d36c85fd6bf
+Section: Tweaks (Hacks)
+Description: Beat Awesome Notes Hack for premium subscription
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Bear (Notes) Hack
+
+Package: com.gebeto.clone-gitclienthack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/clone-gitclienthack_0.1.deb
+Size: 3872
+MD5sum: 1d6d9dbb30f09e4b3819213a4d019c81
+SHA1: ecc23b61f28980a7e6e4abb3ebed01e5bf850cd7
+SHA256: b504ab7028456004e3ec8fc9c4ccba6e2c4be47d367b23a836c70ed4c27a59f6
+Section: Tweaks (Hacks)
+Description: Clone (Git Client) Hack, full activated PUSH and PULL
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Clone - Git Client Hack
+
+Package: com.gebeto.clutch20rc
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Pre-Depends: firmware (>= 3.1)
+Depends: zip
+Conflicts: com.sull.clutch, com.sull.clutchbeta
+Filename: ./debs/clutch20rc_2.0.4.deb
+Size: 250372
+MD5sum: 20a702839410eaee89e15a4d1c659dbd
+SHA1: 8cd95cfd313e469b01f85ee10ad93fe470a86024
+SHA256: 9183ff438dbb030c890d91b4f1848ef9a49fe494c2e866a1e7c3c063243c6b55
+Section: Terminal Support
+Description: Clutch is an extremely fast cracking utility.
+Author: KJCracks
+Name: Clutch 2.0.4
+
+Package: com.gebeto.colorflowlockhtml
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/colorflowlockhtml_2.0.deb
+Size: 25846
+MD5sum: 7953ddadfe5a3a985c76a781246bc713
+SHA1: f98bc8bb9fe4b661c0158fb516e2f87cf403339f
+SHA256: 0ad6fbf4125b3950cfe2b6fc31655100a722c10f5ab96064ee6d7ada69eb935d
+Section: Widgets
+Description: Хорошие часы с переходом и датой
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: ColorFlow LockHTML
+
+Package: com.gebeto.crownkingzeppelin
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/crownkingzeppelin_1.0.deb
+Size: 42730
+MD5sum: 31093e3b96b5b1c9461b9945eb5ac9fe
+SHA1: 099913b14c6dfb9727c3ea1970b9b9a08407c7cc
+SHA256: 3c3df1fc9da0931a8ca4204a47d60d485d6ef874819c3399e84016a316ae0225
+Section: Addons
+Description: Короны для Zeppelin
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Crown : King Zeppelin
+
+Package: com.gebeto.cutecuthack
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/cutecuthack_0.0.1-5debug.deb
+Size: 4528
+MD5sum: 6950d71564e997ea17ada28b69d96589
+SHA1: 7716a53c91ee49663dd2c1a651c1bdd1c834ca8c
+SHA256: c51e24843605fe4048785e7e61d288d5e0401dcdf23d27bf8d7269a036523e0d
+Section: Tweaks (Hacks)
+Description: Cute Cut Pro Upgrade The best way to hack this shit
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Cute Cut Hack
+
+Package: com.gebeto.drompads24hack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/drompads24hack_0.1.deb
+Size: 3834
+MD5sum: ebf665908d60f9fb51997d10fba7bf2c
+SHA1: e52d44a8553e675aaed858f9121a1541d01cbacb
+SHA256: 983b6f5ba65a1f4d84aee22143c67a66a3597325e85837bcc849e6fade79a75a
+Section: Tweaks (Hacks)
+Description: Хак на приложение DrumPads24, все куплено и убрана реклама
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: DrumPads24 Hack
+
+Package: com.gebeto.easytenhack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/easytenhack_0.1.deb
+Size: 3252
+MD5sum: 5f09b423eef62bf88bfe2f882ddc3e72
+SHA1: 25130e8e426c9294a29c80030f9fc02c63053bb2
+SHA256: 42c45ef3f76fab14c0a27d3d79afa10483e948cdcc45aa82f65e68ca6163ada5
+Section: Tweaks (Hacks)
+Description: Easy Ten Premium Hack
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: EasyTen Hack
+
+Package: com.gebeto.englishwithwordshack
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/englishwithwordshack_0.0.1.deb
+Size: 3732
+MD5sum: b0b514a5b0171f6dec07b5acde0caa3a
+SHA1: 5dbc94ea20c61512538996c8d9499ec4e09449c3
+SHA256: ee892508a9902fbf11716c5034d3bf02eb01f66ba991f6b6ddbc42c36569ec0c
+Section: Tweaks (Hacks)
+Description: English With Words Hack      English With Words Hack      English With Words Hack
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: English With Words Hack
+
+Package: com.gebeto.facetune2hack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/facetune2hack_0.1.deb
+Size: 6054
+MD5sum: f95a5b99b4a788c0b2fbfea3a2348086
+SHA1: ce8246bff542c77441f58cc61379685b3716a07d
+SHA256: 066d57bb8bbfec36752c627228e0c0e739b802a5b7393fdd15fb4e433a36ec00
+Section: Tweaks (Hacks)
+Description: Все бесплатно! Facetune 2 взлом на покупки.
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Facetune 2 Hack
+
+Package: com.gebeto.glitchehack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/glitchehack_1.0.deb
+Size: 5426
+MD5sum: 76b4a48803b49578e27c00f6878e2ed5
+SHA1: 0642e1fb653c1e9ab3373f734c77fcb66a44dc03
+SHA256: acff4a0b36a91b1253e30c144b8ded9ee4e70424b5973ef1a6208bbd4ba78f7a
+Section: Tweaks (Hacks)
+Description: Glitche hack, open all modes and filters
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Glitche Hack
+
+Package: com.gebeto.infusehack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/infusehack_0.1.deb
+Size: 6776
+MD5sum: 054e2b8843efaa94a47984af13de15df
+SHA1: 13a3c468173f91e4abdbffdb342d114094ab04d2
+SHA256: e987c0dc156816004a47e1bb0580694543f8bc076cc828d64325eb35e448963f
+Section: Tweaks (Hacks)
+Description: Infuse взлом на премиум!
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Infuse Hack
+
+Package: com.gebeto.instalikesuserselector
+Version: 0.0.1-26+debug
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/instalikesuserselector_0.0.1-26debug.deb
+Size: 7498
+MD5sum: e963eeb2a80838d0e498b651ab34a26c
+SHA1: c1337eb77b80222fe01182feefd2dde3b9522bd8
+SHA256: 88778c03ef9a4d5a0c5f077205c1bce9b55d4ea5d03524771db6f4722c9c39bb
+Section: Tweaks
+Description: Select username for likes in InstaLikes
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: InstaLikes User Selector
+
+Package: com.gebeto.kingstatusbar
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/kingstatusbar_3.0.deb
+Size: 7494
+MD5sum: a437be9f56346ed02f58540e135adb1f
+SHA1: 8175572525c06228ad4512ad8d29fdf506d974d2
+SHA256: 8da672fec0d46dcd9501b22d3d513b2374b2b7acb5585a4319d8aa61fce1e2cc
+Section: Themes
+Description: Изменяет вид индикатора вифи и связи.
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: KingStatusBar
+
+Package: com.gebeto.lazytoken1
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/lazytoken1_1.5.deb
+Size: 7850
+MD5sum: 7e25e1516c513796bcdb8469605ac1f4
+SHA1: 05b1c2c21700f96dbbfadd15123ad4959653ca04
+SHA256: 299c869a58bd509f1e7b8c6e4c6f0a8a3804fdee9ee317be6b03891777120649
+Section: Tweaks
+Description: Enter LazyTool2 access token  Для активации твика, сделайте длинный тап по нижнему бару в приложении. Откроется окошко для ввода vk access_token Вставте там свой токен и нажмите OK После этого авторизируйтесь через вк в самом lazytool
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Lazy Token
+
+Package: com.gebeto.lazytool2unlimited
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/lazytool2unlimited_2.0.deb
+Size: 5002
+MD5sum: 2c53145d495a95f8a03c50a16436dab6
+SHA1: a671638b675673cfa68e4fc76456999c2d02e4fc
+SHA256: 9896211778dada6dac0602aabbaf24dc1539ba80acba1aa31b24910e5d60ea12
+Section: Tweaks (Hacks)
+Description: Lazy Tool 2 Unlimited hack!!!!
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: LazyTool2 Unlimited
+
+Package: com.gebeto.likeshack
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/likeshack_0.0.1-1debug.deb
+Size: 3546
+MD5sum: 7768bfbb5fe6b08de77264ef4299d98e
+SHA1: 638b836aadf8b8db904b4414195da9cf0b110cca
+SHA256: c3f10a27097cb1e2d5e727c642b9de43a1a865328e319fed73c40831e008fd35
+Section: Tweaks (Hacks)
+Description: An awesome MobileSubstrate tweak!
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: likesHACK
+
+Package: com.gebeto.lingualeohack
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/lingualeohack_1.4.deb
+Size: 8988
+MD5sum: add0a0820fb75375c43c931275d7b1e5
+SHA1: 29e9d7fbd8d2d1c92809fadced96af0293b6f520
+SHA256: 1eb4825703ad6b353d4e1c89a2c437df2f7525c1eb223fe165cf32d96177e171
+Section: Tweaks (Hacks)
+Description: Взлом Lingualeo на премиум, все открыто
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Lingualeo Hack
+
+Package: com.gebeto.lingvohack
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/lingvohack_1.0-1.deb
+Size: 3438
+MD5sum: d392dd17bf341c37e266db3d356b4485
+SHA1: 233ffce86fc32ff74abc8b763bfde0f4db476f31
+SHA256: d0f7944e92913c4097ee2b2c4b798c3bc340d8061e6fa67ae9ece9f47f84ca2f
+Section: Tweaks (Hacks)
+Description: Hack for Abbyy Lingvo! All purchased.
+Author: Alexander Orlov
+Name: Lingvo Hack
+
+Package: com.gebeto.linienglishhack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/linienglishhack_0.1.deb
+Size: 3006
+MD5sum: f1be9984499285bf9e8af576bfa7841b
+SHA1: 0c91c03f6691d7e783534caea8008d20e32fea39
+SHA256: 779e02e311d7899dad59123e140d452b69cf1eee25f29ab8686c8b86e095c4f0
+Section: Tweaks (Hacks)
+Description: Lini English Hack все открыто
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Lini English Hack
+
+Package: com.gebeto.ls161rusmod
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/ls161rusmod_1.2.deb
+Size: 75860
+MD5sum: 23eac82e76d21ac4da26995e86d40bb2
+SHA1: ec0a1646af5de174b5789b8aa4cc9ae619ee8487
+SHA256: ab90f2c393c8b1aad277eb08709611f326201408a3a735d3e7f3de89fb78e0ac
+Section: Widgets
+Description: Часы в нижнем углу екрана
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: LS 161 Rus Mod
+
+Package: com.gebeto.maskx
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/maskx_1.0.deb
+Size: 75468
+MD5sum: a61cada8d00242de404bd9749407eaea
+SHA1: 2786ac94152169dc3993305f1330c5384386d67a
+SHA256: 2cc410660bf787aadea31fc3342c9d79058f44935c4698f6ff9f50630b69344b
+Section: Widgets
+Description: Часы переривающиеся маской
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Maskx
+
+Package: com.gebeto.memrisehack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/memrisehack_0.1.deb
+Size: 3012
+MD5sum: 50f2984e2354803b365b556a32f48c8b
+SHA1: 84446e9c4ac6b2f5d72f3e7ff42e0c02623f4dd7
+SHA256: 8b058e5f2086eb75d5eb140d5d07b090a6d7aa95d15e5aa3b25c29b8536a5932
+Section: Tweaks (Hacks)
+Description: Memrise взлом на премиум
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Memrise Hack
+
+Package: com.gebeto.mimohack
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/mimohack_2.0.deb
+Size: 5562
+MD5sum: 1081c92cb2ae7d1533268bcbbeb611e8
+SHA1: ed438eac5e5df50fd18d545e2d819dd077b5a700
+SHA256: 649d7e0fb0d7c493ea0049a793ac0425b85e70cf4dcf692c3242919f558ccbc0
+Section: Tweaks (Hacks)
+Description: Взлом на премиум для Mimo: Learn how to code through interactive tutorials and quizzes!
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Mimo Hack
+
+Package: com.gebeto.muzecc
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/muzecc_0.1.deb
+Size: 18292
+MD5sum: 30810065ac9a38bbbfc590938ca5d378
+SHA1: 92ce4963d26288c45cc9ee559689c30c1bdc5b2c
+SHA256: 6efd2fa21ab82bcbfd10476ce66174c97c90dc4b69d1f80de473b8c35486b880
+Section: Themes
+Description: Тема для Контрол Центра.
+Author: Purdixx
+Name: Muze CC
+
+Package: com.gebeto.premiumkingpack
+Version: 9.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/premiumkingpack_9.0.deb
+Size: 7488
+MD5sum: 289c996b668c638045dae9932a2006a1
+SHA1: f151fcade80a708c86c46814d95759e98da2d042
+SHA256: 828ad62c2a0bb8f3f2bb8ae03b8f6a6b846bd34ff7600d50a8b6182211797d5c
+Section: Themes
+Description: Супер пак с супер возможностями:)
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Premium King Pack
+
+Package: com.gebeto.shellyhack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/shellyhack_0.1.deb
+Size: 3730
+MD5sum: 684f6b6f5e80e38c9abbead252608ac5
+SHA1: c7445b58f293d1e5cb74ea8907b9c4f2b8722523
+SHA256: 609f4f7be489ff1fbaf8e677ff5fe86326d9c268360422bd23f651d5a5d72c0c
+Section: Tweaks (Hacks)
+Description: Shelly terminal premium hack!
+Author: Alexander Belinsky
+Name: Shelly Hack
+
+Package: com.gebeto.truthordarehack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/truthordarehack_1.0.deb
+Size: 3100
+MD5sum: d8c3facf7e112b5170fd91153d41e92f
+SHA1: 81c1a07d590fd0df3c28cbdf4420e1426444d19e
+SHA256: 7665ac9ef35367e5dd4906e31b0951e245c640d55c2686691d0a5c8da105fae8
+Section: Tweaks (Hacks)
+Description: Взлом на премиум и все покупки https://appsto.re/ru/hqKML.i
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Truth Or Dare Hack
+
+Package: com.gebeto.typo5cydget
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/typo5cydget_1.0.deb
+Size: 16210
+MD5sum: 9eef05438ddf41f48fee8af248d45e36
+SHA1: c5ee3bcefeda29b0161c5f5da80f20a61303c4c2
+SHA256: 8cdb1aa5d6719aef88fbf1db53ab8aee86e8a1a9c0da5924ebe9ac83288adf7c
+Section: Widgets
+Description: Крутые часы на весь екран!
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Typo5 Cydget
+
+Package: com.gebeto.typo5lockhtml
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/typo5lockhtml_2.0.deb
+Size: 16150
+MD5sum: 619511e5c8ead0845a1489ee99b367ee
+SHA1: 175642a035cf3893f3fbf65ba5f8d91623a3e1fe
+SHA256: 26e153a4a88a56d6cc3611219041993541e1beceec86e7559181a79ad2b93fb0
+Section: Widgets
+Description: Часы на весь екран
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Typo5 LockHTML
+
+Package: com.gebeto.typo5russianlockhtml
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Filename: ./debs/typo5russianlockhtml_2.2.deb
+Size: 37194
+MD5sum: 093bd3031fd4eb1d818cea67d4619fe3
+SHA1: 12cf0db40ee9577880fea12620eb8e0c7ce09272
+SHA256: cbddb1b60dfb4531e235cf210b246384af73981cf06422bfe138a0a4f2e281b9
+Section: Widgets
+Description: Шедевральные часы на весь екран
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Typo5 Russian LockHTML
+
+Package: com.gebeto.vkappcopytoken
+Version: 0.0.8
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vkappcopytoken_0.0.8.deb
+Size: 5828
+MD5sum: dc621fd5b4bc27dcd7c3f6212bd2ffb3
+SHA1: e350a4808a1cf07a753b0a97c641059d1352fe89
+SHA256: 05ebc330ea15af5799d54122081c187d49e9871b82e5e4ee4a3106895a46bbd7
+Section: Tweaks
+Description: Твик для копирования токена с VK App
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VKApp Copy Token
+
+Package: com.gebeto.vkawayremover
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vkawayremover_0.1.deb
+Size: 3252
+MD5sum: 10b1ea515d2a0113fb44160e10330a46
+SHA1: e0ff291174843c98b982f6c0ece825b3dc832527
+SHA256: 0269262538119429bfc9c8d2d61209d89923ca2383cb3d77d30746b7eb103052
+Section: Tweaks
+Description: Убирает проверку ссылок
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VK Away Remover
+
+Package: com.gebeto.vkmessagedecoderbeta
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vkmessagedecoderbeta_0.1.deb
+Size: 10560
+MD5sum: f0039582ce7c137ef29785566063ca43
+SHA1: 9e60f3ea964f559ff57f13476faa611da7835834
+SHA256: 23dab03edf5f8aef81d850efc76a21b62ca7ddf9ff8ee44d8718faa0c77899a4
+Section: Tweaks
+Description: Tweak for Decode and Encode messages in VK.
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VK Messages Encode
+
+Package: com.gebeto.vkmessageslock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vkmessageslock_0.0.1.deb
+Size: 7142
+MD5sum: 1350071b889a40edf8360776c5ff6d8c
+SHA1: 5a5e363963c63b08170318e949a768f271ad5430
+SHA256: 5cf21f3026456fee5a5fe34187bc16d46f62deb8cd33e2fc60e2258991f68ba1
+Section: Tweaks
+Description: Твик для блокировки сообщений VK App на пароль 1111
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VK Messages Lock
+
+Package: com.gebeto.vkvideourl
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vkvideourl_1.0.deb
+Size: 8714
+MD5sum: 711fc395b031fe9cab960266049e3a98
+SHA1: 79227b065ffaa7f8869e5416757affdbccc94a5f
+SHA256: 1425427c7f8a14dac7c7fdb2d37dc0da8db58c8d2fb4350b14b33d2f8820c8e5
+Section: Tweaks
+Description: Твик для получения прямой ссылки на видео длинным тапом
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VK Video URL
+
+Package: com.gebeto.volocohack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/volocohack_0.1.deb
+Size: 3546
+MD5sum: 761eaf0b8f12f81aa679f1d44939efa1
+SHA1: 6cbf3389b8bd450dd7d36df6d13ccf9834cd5232
+SHA256: a0758bbec6053852a335ae0498ee0bae6aea78e737678db04cc9587599557853
+Section: Tweaks (Hacks)
+Description: Voloco Hack open all for free
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Voloco Hack
+
+Package: com.gebeto.vpnmasterhack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/vpnmasterhack_0.1.deb
+Size: 3444
+MD5sum: c876659c708273b4bbd0d20f584cb037
+SHA1: 780717a20b0aa456b3a3e5f0dcb97fda7f4e4b43
+SHA256: 9616a2c8b03749d0a47d87f280f1ee1f7cf8896608b7409bf72f81d8d87c8fb5
+Section: Tweaks (Hacks)
+Description: VPN Master VIP Hack open VIP VPNs                                                                                  https://appsto.re/ru/D3Wi9.i
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: VPN Master Hack
+
+Package: com.gebeto.zvooqhack
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/zvooqhack_0.1.deb
+Size: 3832
+MD5sum: d891f1dd1ea77a51a59bbe5af3c06a7d
+SHA1: b688ec2b6a4217bb0d654e60c145facb95e20275
+SHA256: a5a8db3643f3bc7d011620a863be521a60c1e8bcdad25a5b8e0306ee80089719
+Section: Tweaks (Hacks)
+Description: Хак на приложение Zvooq, подписка и убрана реклама
+Author: gebeto <slavik.nychkalo@gmail.com>
+Name: Zvooq Hack
+

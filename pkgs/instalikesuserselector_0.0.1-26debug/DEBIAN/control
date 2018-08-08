@@ -1,0 +1,10 @@
+Package: com.gebeto.instalikesuserselector
+Name: InstaLikes User Selector
+Version: 0.0.1-26+debug
+Architecture: iphoneos-arm
+Description: Select username for likes in InstaLikes
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

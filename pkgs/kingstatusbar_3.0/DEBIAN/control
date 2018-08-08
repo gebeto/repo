@@ -1,0 +1,9 @@
+Package: com.gebeto.kingstatusbar
+Name: KingStatusBar
+Version: 3.0
+Architecture: iphoneos-arm
+Description: Изменяет вид индикатора вифи и связи.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Themes
+

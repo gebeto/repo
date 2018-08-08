@@ -1,0 +1,10 @@
+Package: com.gebeto.easytenhack
+Name: EasyTen Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Easy Ten Premium Hack
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

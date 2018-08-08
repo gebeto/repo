@@ -1,0 +1,9 @@
+Package: com.gebeto.typo5lockhtml
+Name: Typo5 LockHTML
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Часы на весь екран
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+

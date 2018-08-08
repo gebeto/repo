@@ -1,0 +1,10 @@
+Package: com.gebeto.truthordarehack
+Name: Truth Or Dare Hack
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Взлом на премиум и все покупки https://appsto.re/ru/hqKML.i
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

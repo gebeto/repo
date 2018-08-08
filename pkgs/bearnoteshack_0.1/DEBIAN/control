@@ -1,0 +1,10 @@
+Package: com.gebeto.bearnoteshack
+Name: Bear (Notes) Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Beat Awesome Notes Hack for premium subscription
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

@@ -1,0 +1,10 @@
+Package: com.gebeto.glitchehack
+Name: Glitche Hack
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Glitche hack, open all modes and filters
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

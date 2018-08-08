@@ -1,0 +1,10 @@
+Package: com.gebeto.facetune2hack
+Name: Facetune 2 Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Все бесплатно! Facetune 2 взлом на покупки.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

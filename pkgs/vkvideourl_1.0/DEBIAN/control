@@ -1,0 +1,10 @@
+Package: com.gebeto.vkvideourl
+Name: VK Video URL
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Твик для получения прямой ссылки на видео длинным тапом
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

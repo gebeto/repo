@@ -1,0 +1,190 @@
+<html>
+<head>
+	<title>Motivational Lockscreen</title>
+	<style type="text/css">
+
+		@font-face {
+			font-family: 'SixCapsRegular';
+			src: url('SixCaps-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+
+		}
+		
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		#motivation {
+			margin: 50px 0 0 0;
+		}
+
+		.motivation-holder {
+			width: 200px;
+			margin: auto;
+			text-align: center;
+		}
+
+		div.small-text {
+		    text-align: center;
+		}
+
+		hr {
+			height: 2px;
+			border: none;
+			width: 100%;
+			background-color: white;
+		}
+
+		p {
+			overflow: hidden;
+			text-align: center;
+		}
+
+		p:before, p:after {
+			background-color: #fff;
+			content: "";
+			display: inline-block;
+			height: 2px;
+			position: relative;
+			vertical-align: middle;
+			width: 50%;
+			margin: -2px 0 0 0;
+		}
+
+		p:before {
+			right: 0.5em;
+			margin-left: -50%;
+		}
+		p:after {
+			left: 0.5em;
+			margin-right: -50%;
+		}
+
+		p {
+			font-family: Helvetica, sans-serif;
+			font-weight: 600;
+			font-size: 14px;
+			color: white;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			font-family: 'SixCapsRegular', sans-serif;
+			font-size: 90px;
+			font-weight: 100;
+			color: white;
+			text-transform: uppercase;
+			margin: -8px 0 -2px 0;
+		}
+
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+</head>
+<body id="body">
+
+	<div id="motivation">
+		<div class="motivation-holder">
+			<div class="small-text">
+				<p>Guess what, it's</p>
+			</div>
+			<div class="big-text">
+				<h1><span id="time"></span></h1>
+			</div>
+			<div class="small-text">
+				<p>on the</p>
+			</div>
+			<div class="big-text">
+				<h1><span id="month-text"></span></h1>
+			</div>
+			<div class="small-text">
+				<p>of</p>
+			</div>
+			<div class="big-text">
+				<h1><span id="month"></span></h1>
+			</div>
+			<div class="small-text">
+				<p><span id="am-pm"></span></p>
+			</div
+		</div>
+	</div>
+
+
+
+
+	
+	<script type="text/javascript">
+
+	
+		String.prototype.format = function() {
+			var formatted = this;
+			for (var i = 0; i < arguments.length; i++) {
+				var regexp = new RegExp('\\{'+i+'\\}', 'gi');
+				formatted = formatted.replace(regexp, arguments[i]);
+			}
+			return formatted;
+		};
+
+		function calculateTime() {
+			var Make_It_12_Hour = false;
+
+			var currentTime = new Date();
+			var hours = currentTime.getHours();
+			var minutes = currentTime.getMinutes();
+			var ampm = (hours >= 12) ? "pm" : "am";
+
+			if (Make_It_12_Hour) {
+				hours = hours % 12;
+				hours = hours ? hours : 12;
+				minutes = minutes < 10 ? "0" + minutes : minutes;
+			} else {
+				if (minutes < 10) { minutes = "0" + minutes; }
+				if (hours < 10) { hours = "0" + hours; }
+			}
+
+			document.getElementById("time").innerText = "{0}:{1}".format(hours, minutes);
+			document.getElementById("am-pm").innerText = ampm;
+		}
+
+		function calculateDate() {
+			var months = new Array("january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december");
+			var days = new Array("sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday");
+			var currentTime = new Date();
+			var day = currentTime.getDate().toString();
+			var month = months[currentTime.getMonth()];
+			var literalDay = days[currentTime.getDay()];
+
+			var dayInd = (day.length >= 2) ? day.substring(day.length - 1) : day;
+			var ending = "";
+
+			switch (dayInd) {
+				case "1":
+					ending = (day == "11") ? "th" : "st";
+					break;
+				case "2":
+					ending = (day == "12") ? "th" : "nd";
+					break;
+				case "3":
+					ending = (day == "13") ? "th" : "rd";
+					break;
+				default:
+					ending = "th";
+					break;
+			}
+
+			document.getElementById("month").innerText = month;
+			document.getElementById("month-text").innerText = "{0}{1}".format(day, ending);
+			//document.getElementById("literal-day").innerText = literalDay;
+		}
+
+		//if you've found this on another repo than http://patrickmuff.ch/repo/ then it was stolen by some idiots who don't even bother reading the code they steal.	
+		calculateTime();
+		calculateDate();
+		setInterval(calculateTime, 1000);
+		setInterval(calculateDate, 2000);
+		
+	</script>
+
+</body>
+</html>

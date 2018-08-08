@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	padding:0;
+    color:white;
+    text-shadow:1px 1px 0px rgba(0,0,0, 0.25);
+	font-weight:100;
+	text-transform:capitalize;
+	letter-spacing:.5;
+}
+
+@font-face {
+	font-family:bold;
+	src:url(bold.ttf);
+}
+@font-face {
+	font-family:regular;
+	src:url(regular.ttf);
+}
+
+#wrap{
+       position:relative; top:0%; left:20%; width:30%; height:100%; overflow:hidden;
+}
+#hour{
+       position:absolute; top:25%; left:31%; width:100%; text-align:left; z-index:50;
+       font-size:22vw;
+	   font-family:bold;
+	   color:f4f4f4;
+	   opacity:0.8;
+	   text-shadow:2px 2px 0px rgba(0,0,0, 0.25);
+}
+#minute{
+       position:absolute; top:37%; left:31%; width:100%; text-align:left; z-index:50;
+       font-size:22vw;
+	   font-family:bold;
+	   color:f4f4f4;
+	   opacity:0.8;
+	   text-shadow:2px 2px 0px rgba(0,0,0, 0.25);
+}
+
+#L{
+       position:absolute; top:23.4%; left:50%; width:0.7%; height:25%; z-index:50;
+	   background-color:f4f4f4;
+	   opacity:0.6;
+	   box-shadow:1px 1px 0px rgba(0,0,0, 0.25);
+}
+
+#Calendario{
+       position:absolute; top:34.2%; left:52%; width:100%; text-align:left; z-index:50;
+       font-size:3.5vw;
+	   font-family:regular;
+}
+#weekday,#date{color:f4f4f4;}
+
+#LevelDisplay{
+       position:absolute; top:36.7%; left:52%; width:100%; text-align:left; z-index:50;
+       font-size:2.4vw;
+	   font-family:regular;
+	   opacity:0.7;
+	   color:f4f4f4;
+}

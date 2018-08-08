@@ -1,0 +1,10 @@
+Package: com.gebeto.likeshack
+Name: likesHACK
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

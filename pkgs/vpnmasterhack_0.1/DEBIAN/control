@@ -1,0 +1,10 @@
+Package: com.gebeto.vpnmasterhack
+Name: VPN Master Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: VPN Master VIP Hack open VIP VPNs                                                                                  https://appsto.re/ru/D3Wi9.i
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

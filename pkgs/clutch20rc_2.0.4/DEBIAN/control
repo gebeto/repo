@@ -1,0 +1,12 @@
+Package: com.gebeto.clutch20rc
+Name: Clutch 2.0.4
+Version: 2.0.4
+Architecture: iphoneos-arm
+Description: Clutch is an extremely fast cracking utility.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: KJCracks
+Section: Terminal Support
+Pre-Depends: firmware (>= 3.1)
+Depends: zip
+Conflicts: com.sull.clutch, com.sull.clutchbeta
+

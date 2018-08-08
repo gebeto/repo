@@ -1,0 +1,11 @@
+{
+	CYTagline = "Typo5 Lockscreen";
+	CYPlugin = WebCycriptLockScreen;
+	CYConfiguration = {
+		Homepage = "Typo5.html";
+    Background = "Background.html";
+		Scrollable = NO;
+		MediaControls = YES;
+		NotificationList = NO;
+	};
+}

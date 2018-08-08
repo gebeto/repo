@@ -1,0 +1,10 @@
+Package: com.gebeto.drompads24hack
+Name: DrumPads24 Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Хак на приложение DrumPads24, все куплено и убрана реклама
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

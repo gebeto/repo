@@ -1,0 +1,64 @@
+function unpack {
+	rm -rf pkgs
+	mkdir -p pkgs
+	debs=`ls debs/*.deb | xargs -n 1 basename`
+	for entry in $debs
+		do echo "$entry";
+		`dpkg-deb -R debs/$entry pkgs/${entry%.deb}`;
+	done
+}
+
+function pack {
+	mkdir -p debs
+	pkgs=`ls pkgs | xargs -n 1 basename`;
+	for entry in $pkgs
+	do
+		dpkg-deb --build pkgs/$entry debs/$entry.deb;
+	done
+}
+
+function update {
+	find . .DS_Store -exec rm {}\;
+	pack
+	dpkg-scanpackages -m . /dev/null > Packages
+	bzip2 -c Packages > Packages.bz2
+	gzip  -c Packages > Packages.gz
+	python addons/format_readme.py
+}
+
+function deploy {
+	git pull
+	rm -rf .git
+	git init
+	git remote add origin https://github.com/gebeto/repo
+	git add -A
+	git commit -m "update packages"
+	git push --set-upstream origin master --force
+}
+
+
+
+
+for ARG in "$@"; do
+
+	if [[ $ARG == "unpack" ]]
+	then
+	  unpack
+	fi
+
+	if [[ $ARG == "pack" ]]
+	then
+	  unpack
+	fi
+
+	if [[ $ARG == "update" ]]
+	then
+	  update
+	fi
+
+	if [[ $ARG == "deploy" ]]
+	then
+	  deploy
+	fi
+
+done

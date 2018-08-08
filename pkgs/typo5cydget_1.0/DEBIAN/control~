@@ -1,0 +1,10 @@
+Package: com.dislick.analogclockcydget
+Name: iOS7 AnalogClock Cydget
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Simple, analogue clock
+Depiction: http://patrickmuff.ch/repo/depiction/depiction.php?deb=analogclock
+Homepage: http://patrickmuff.ch
+Maintainer: Patrick Muff
+Author: Patrick Muff
+Section: Themes

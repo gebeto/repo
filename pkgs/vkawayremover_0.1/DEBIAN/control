@@ -1,0 +1,10 @@
+Package: com.gebeto.vkawayremover
+Name: VK Away Remover
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Убирает проверку ссылок
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

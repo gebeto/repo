@@ -1,0 +1,10 @@
+Package: com.gebeto.vkappcopytoken
+Name: VKApp Copy Token
+Version: 0.0.8
+Architecture: iphoneos-arm
+Description: Твик для копирования токена с VK App
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

@@ -1,0 +1,10 @@
+Package: com.gebeto.linienglishhack
+Name: Lini English Hack
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Lini English Hack все открыто
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

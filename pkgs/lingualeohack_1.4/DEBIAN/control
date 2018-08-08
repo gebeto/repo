@@ -1,0 +1,10 @@
+Package: com.gebeto.lingualeohack
+Name: Lingualeo Hack
+Version: 1.4
+Architecture: iphoneos-arm
+Description: Взлом Lingualeo на премиум, все открыто
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

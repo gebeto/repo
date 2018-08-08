@@ -1,0 +1,195 @@
+<html>
+<head>
+	<title>color flow</title>
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		@font-face {
+		    font-family: 'GeoSansLight';
+		    src: url('geosanslight-webfont.eot');
+		    src: url('geosanslight-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		h1, h2, p {
+			font-family: 'GeoSansLight', sans-serif;
+			font-weight: 300;
+			color: white;
+		}
+
+		p.time, p.date {
+			color: rgba(255, 255, 255, 0.35);
+			-webkit-filter: blur(1px);
+			text-transform: uppercase;
+		}
+
+		p.time {
+			font-size: 45px;
+		}
+
+		p.date {
+			font-size: 20px;
+			text-align: right;
+			margin: 2px 0 2px 0;
+		}
+
+		.selected {
+			color: rgba(255, 255, 255, 1) ! important;
+			-webkit-filter: none ! important;
+		}
+
+		#time-container {
+			margin: auto;
+			width: 135px;
+			padding: 80px 0 0 0;
+		}
+
+		#date-container {
+			position: relative;
+			width: 150px;
+			margin: auto;
+			bottom: -220px;
+		}
+
+		.left, .right {
+			display: inline-block;
+		}
+
+		.right {
+			border-left: 1px solid #fff;
+			margin: 0 0 0 10px;
+			padding: 0 0 0 10px;
+		}
+
+
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+</head>
+<body>
+
+	<div id="time-container">
+		<div class="left">
+			<p id="time1-1" class="time"></p>
+			<p id="time1-2" class="time selected"></p>
+			<p id="time1-3" class="time"></p>
+		</div>
+
+		<div class="right">
+			<p id="time2-1" class="time"></p>
+			<p id="time2-2" class="time selected"></p>
+			<p id="time2-3" class="time"></p>
+		</div>
+	</div>
+
+	<div id="date-container">
+		<div class="left">
+			<p id="date1-1" class="date"></p>
+			<p id="date1-2" class="date selected"></p>
+			<p id="date1-3" class="date"></p>
+		</div>
+
+		<div class="right">
+			<p id="date2-1" class="date"></p>
+			<p id="date2-2" class="date selected"></p>
+			<p id="date2-3" class="date"></p>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+
+		function calculateTime() {
+			var Make_It_12_Hour = false;
+
+			var currentTime = new Date();
+			var hour1 = currentTime.getHours() - 1;
+			var hour2 = currentTime.getHours();
+			var hour3 = currentTime.getHours() + 1;
+
+			var minutes = currentTime.getMinutes();
+			var minute1 = currentTime.getMinutes() - 1;
+			var minute2 = currentTime.getMinutes();
+			var minute3 = currentTime.getMinutes() + 1;
+
+			if (Make_It_12_Hour) {
+				hour1 = hour1 % 12;
+				hour1 = (hour1) ? hour1 : 12;
+				hour2 = hour2 % 12;
+				hour2 = (hour2) ? hour2 : 12;
+				hour3 = hour3 % 12;
+				hour3 = (hour3) ? hour3 : 12;
+
+				if (hour1 < 0) { hour1 = "11"; }
+				if (hour3 > 12) { hour3 = "1"; }
+
+				if (hour1 < 10) { hour1 = "0" + hour1; }
+				if (hour2 < 10) { hour2 = "0" + hour2; }
+				if (hour3 < 10) { hour3 = "0" + hour3; }
+
+				if (minute1 < 0) { minute1 = "59"; }
+				if (minute3 > 59) { minute3 = "1"; }
+
+				if (minute1 < 10) { minute1 = "0" + minute1; }
+				if (minute2 < 10) { minute2 = "0" + minute2; }
+				if (minute3 < 10) { minute3 = "0" + minute3; }
+			} else {
+				if (minute1 < 0) { minute1 = "59"; }
+				if (minute3 > 59) { minute3 = "1"; }
+
+				if (minute1 < 10) { minute1 = "0" + minute1; }
+				if (minute2 < 10) { minute2 = "0" + minute2; }
+				if (minute3 < 10) { minute3 = "0" + minute3; }
+
+				if (hour1 < 0) { hour1 = "23"; }
+				if (hour3 > 23) { hour3 = "0"; }
+
+				if (hour1 < 10) { hour1 = "0" + hour1; }
+				if (hour2 < 10) { hour2 = "0" + hour2; }
+				if (hour3 < 10) { hour3 = "0" + hour3; }
+			}
+
+			document.getElementById("time1-1").innerText = hour1;
+			document.getElementById("time1-2").innerText = hour2;
+			document.getElementById("time1-3").innerText = hour3;
+
+			document.getElementById("time2-1").innerText = minute1;
+			document.getElementById("time2-2").innerText = minute2;
+			document.getElementById("time2-3").innerText = minute3;
+		}
+
+		function calculateDate() {
+			var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+			var currentTime = new Date();
+			var day1 = (currentTime.getDate() - 1).toString();
+			var day2 = currentTime.getDate().toString();
+			var day3 = (currentTime.getDate() + 1).toString();
+			var month = currentTime.getMonth();
+
+			if (day1.length == 1) { day1 = "0" + day1; } 
+			if (day2.length == 1) { day2 = "0" + day2; } 
+			if (day3.length == 1) { day3 = "0" + day3; } 
+
+			document.getElementById("date1-1").innerText = months[month - 1];
+			document.getElementById("date1-2").innerText = months[month];
+			document.getElementById("date1-3").innerText = months[month + 1];
+
+			document.getElementById("date2-1").innerText = day1;
+			document.getElementById("date2-2").innerText = day2;
+			document.getElementById("date2-3").innerText = day3;
+		}
+
+		calculateTime();
+		calculateDate();
+		setInterval(calculateTime, 2000);
+		setInterval(calculateDate, 60000);
+		
+	</script>
+
+</body>
+</html>

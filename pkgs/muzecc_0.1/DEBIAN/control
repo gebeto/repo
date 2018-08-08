@@ -1,0 +1,9 @@
+Package: com.gebeto.muzecc
+Name: Muze CC
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Тема для Контрол Центра.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: Purdixx
+Section: Themes
+

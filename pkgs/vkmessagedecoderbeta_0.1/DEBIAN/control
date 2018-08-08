@@ -1,0 +1,10 @@
+Package: com.gebeto.vkmessagedecoderbeta
+Name: VK Messages Encode
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Tweak for Decode and Encode messages in VK.
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+

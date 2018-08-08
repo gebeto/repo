@@ -1,0 +1,10 @@
+Package: com.gebeto.cutecuthack
+Name: Cute Cut Hack
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Description: Cute Cut Pro Upgrade The best way to hack this shit
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

@@ -1,0 +1,9 @@
+Package: com.gebeto.ls161rusmod
+Name: LS 161 Rus Mod
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Часы в нижнем углу екрана
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+

@@ -1,0 +1,10 @@
+Package: com.gebeto.audioenglish
+Name: Самоучитель английского языка. Полный курс: иностранный язык с нуля для начинающих
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Взлом  на подписку, все открыто
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Tweaks (Hacks)
+Depends: mobilesubstrate
+

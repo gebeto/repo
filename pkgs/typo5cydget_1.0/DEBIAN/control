@@ -1,0 +1,9 @@
+Package: com.gebeto.typo5cydget
+Name: Typo5 Cydget
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Крутые часы на весь екран!
+Maintainer: gebeto <slavik.nychkalo@gmail.com>
+Author: gebeto <slavik.nychkalo@gmail.com>
+Section: Widgets
+
