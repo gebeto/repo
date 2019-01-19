@@ -38,7 +38,7 @@
 					{{ site.data }}
 				</pre>
 			</code>
-			
+
 			<code>
 				<pre>
 					{{ site.data.Packages }}
@@ -47,7 +47,7 @@
 
 			<table>
 				<tbody>
-					{% for package in site.data.Packages %}
+					{% for package in site.data.Packages.packages %}
 						<tr>
 							<td>
 								{{ package.Name }}
