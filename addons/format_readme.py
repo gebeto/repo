@@ -46,6 +46,6 @@ if __name__ == "__main__":
 			},
 			"packages": list(packages),
 		},
-		open("Packages.json", "w"),
+		open("_data/Packages.json", "w"),
 		indent=4
 	)
