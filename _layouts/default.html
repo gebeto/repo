@@ -32,20 +32,11 @@
 
 		<main id="content" class="main-content" role="main">
 			{{ content }}
-			
-			<code>
-				<pre>
-					{{ site.data }}
-				</pre>
-			</code>
-
-			<code>
-				<pre>
-					{{ site.data.Packages }}
-				</pre>
-			</code>
 
 			<table>
+				<caption>
+					<h2>Список твиков</h2>
+				</caption>
 				<tbody>
 					{% for package in site.data.Packages.packages %}
 						<tr>
