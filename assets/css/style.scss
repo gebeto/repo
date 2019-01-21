@@ -30,13 +30,13 @@ td {
 
 .language-center {
     width: 100%;
-    display: flex;
+    display: flex !important;
     flex: 1;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2em !important;
 	
     @media (screen and max-width: 600px) {
-        font-size: 1em;
+        font-size: 1em !important;
     }
 }
