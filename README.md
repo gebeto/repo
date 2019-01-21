@@ -3,9 +3,10 @@
 Cydia repository
 
 Add this url to Cydia sources to use my repository:
-```
 
-  https://gebeto.github.io/repo
+```center
+
+https://gebeto.github.io/repo
 
 ```
 
