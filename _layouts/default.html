@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}" itemscope itemtype="https://schema.org/FAQPage">
 	<head>
 
 		{% if site.google_analytics %}
@@ -44,12 +44,17 @@
 				</thead>
 				<tbody>
 					{% for package in site.data.Packages.packages %}
-						<tr>
-							<td>
+						<tr itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+							<td itemprop="name">
 								{{ package.Name }}
 							</td>
-							<td>
-								{{ package.Package }}
+							<td itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+								<span itemprop="text">
+									{{ package.Package }} -
+									<a href="{{ package.Filename }}" class="btn dark">
+										Download
+									</a>
+								</span>
 							</td>
 							<td>
 								<a href="{{ package.Filename }}" class="btn dark">
