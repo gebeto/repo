@@ -13,6 +13,12 @@
 		{% endif %}
 		<meta charset="UTF-8">
 
+		<style>
+			.download-button {
+				display: none;
+			}
+		</style>
+
 {% seo %}
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#157878">
@@ -51,7 +57,7 @@
 							<td itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 								<span itemprop="text">
 									{{ package.Package }} -
-									<a href="{{ package.Filename }}" class="btn dark">
+									<a href="{{ package.Filename }}" class="download-button btn dark">
 										Download
 									</a>
 								</span>
