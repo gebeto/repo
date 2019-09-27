@@ -18,22 +18,24 @@ function pack {
 }
 
 function update {
-	find . .DS_Store -exec rm {}\;
 	pack
 	dpkg-scanpackages -m . /dev/null > Packages
 	bzip2 -c Packages > Packages.bz2
 	gzip  -c Packages > Packages.gz
-	python addons/format_readme.py
+	python scripts/format_readme.py
 }
 
 function deploy {
-	git pull
-	rm -rf .git
-	git init
-	git remote add origin https://github.com/gebeto/repo
 	git add -A
-	git commit -m "update packages"
-	git push --set-upstream origin master --force
+	git commit --amend --no-edit
+	git push --force
+	# git pull
+	# rm -rf .git
+	# git init
+	# git remote add origin https://github.com/gebeto/repo
+	# git add -A
+	# git commit -m "update packages"
+	# git push --set-upstream origin master --force
 }
 
 

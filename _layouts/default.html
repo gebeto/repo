@@ -13,17 +13,17 @@
 		{% endif %}
 		<meta charset="UTF-8">
 
-		<style>
-			.download-button {
-				display: none;
-			}
-		</style>
 
 {% seo %}
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#157878">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<style>
+			.download-button {
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		<header class="page-header" role="banner">
@@ -56,9 +56,9 @@
 							</td>
 							<td itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 								<span itemprop="text">
-									{{ package.Package }} -
+									{{ package.Package }}
 									<a href="{{ package.Filename }}" class="download-button btn dark">
-										Download
+										- Download
 									</a>
 								</span>
 							</td>
