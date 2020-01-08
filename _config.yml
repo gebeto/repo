@@ -1,4 +1,12 @@
 theme: jekyll-theme-cayman
+
 plugins:
   - jekyll-sitemap
+
 seo: true
+
+defaults:
+  - scope:
+      path: 'pkgs'
+    values:
+      sitemap: false

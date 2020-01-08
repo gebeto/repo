@@ -19,7 +19,7 @@ function pack {
 
 function update {
 	pack
-	dpkg-scanpackages -m . /dev/null > Packages
+	dpkg-scanpackages -m ./debs /dev/null > Packages
 	bzip2 -c Packages > Packages.bz2
 	gzip  -c Packages > Packages.gz
 	python scripts/format_readme.py

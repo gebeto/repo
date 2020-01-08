@@ -1,0 +1,10 @@
+Package: com.gebeto.vpnmaster2
+Name: VPN Master Hack 2
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: VPN Master 2 VIP Hack open VIP VPNs                                                                                
+Maintainer: SlavikNychkalo
+Author: SlavikNychkalo
+Section: Tweaks
+Version: 0.0.1
+Installed-Size: 136
