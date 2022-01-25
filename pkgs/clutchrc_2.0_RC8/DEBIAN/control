@@ -1,0 +1,15 @@
+Package: com.sull.clutchrc
+Name: Clutch 2.0 RC
+Version: 2.0~RC8
+Pre-Depends: firmware (>= 3.1)
+Depends: zip
+Conflicts: com.sull.clutch, com.sull.clutchbeta
+Replaces: com.sull.clutch, com.sull.clutchbeta
+Architecture: iphoneos-arm
+Author: KJCracks
+Priority: extra
+Section: iSystem
+Description: Clutch is an extremely fast cracking utility.
+Sponsor: insanelyi <http://insanelyi.com>
+Depiction: http://repo.insanelyi.com/depiction.php?package=clutchrc
+Maintainer: insanelyi <noreply@insanelyi.com>
